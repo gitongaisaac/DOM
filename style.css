@@ -1,0 +1,24 @@
+/* Header */
+.header {
+  background-color: var(--stroke-400);
+}
+
+/* List */
+.list .card {
+  box-shadow: var(--shadow-2);
+  width: 600px;
+}
+
+.list .card input[type="text"] {
+  padding: 5px;
+}
+
+.list .card .btn {
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.list .items ul li {
+  padding: 5px 15px;
+  border: 0.5px solid var(--grey-400);
+}
