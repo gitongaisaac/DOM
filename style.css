@@ -19,7 +19,7 @@
   border-radius: 2px;
 }
 
-.list .items ul li {
+.list .list-item {
   padding: 5px 15px;
   border: 0.5px solid var(--grey-400);
 }
