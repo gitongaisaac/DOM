@@ -105,7 +105,7 @@ querySelectorAll
 var titles = document.querySelectorAll('.title');
  
 console.log(titles); 
-titles[0].textContent = 'Hello';
+// titles[0].textContent = 'Hello';
 
 var odd = document.querySelectorAll('li:nth-child(odd)');
 var even = document.querySelectorAll('li:nth-child(even)');
@@ -188,3 +188,31 @@ console.log(itemList);
 createElement
 ================================================================================================================================
 */
+
+// // Create a div
+//  var newDiv = document.createElement('div');
+
+//  // Add class
+//  newDiv.className = 'hello';
+
+//  // Add id
+//  newDiv.id = 'hello1';
+
+//  //Add att
+//  newDiv.setAttribute('title', 'Hello Div');
+
+//  // Create text node
+//  var newDivText = document.createTextNode('Hello world');
+
+//  //Add text to the Div
+//  newDiv.appendChild(newDivText);
+
+//  // Inserting the div into the dom
+//  var container = document.querySelector('header .container-1');
+//  var h1 = document.querySelector('header h1');
+
+//  console.log(newDiv);
+
+//  container.insertBefore(newDiv, h1);
+// //  newDiv.style.fontSize = '30px';
+
