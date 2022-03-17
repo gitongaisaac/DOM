@@ -3,6 +3,14 @@
 EXAMINE THE  DOCUMENT OBJECT
 ================================================================================================================================
 */
+/* ===== FINDING HTML ELEMENTS ===== */
+// If you want to access any element in an HTML page, you always start with accessing the document object.
+// Finding HTML elements by id
+// Finding HTML elements by tag name
+// Finding HTML elements by class name
+// Finding HTML elements by CSS selectors
+// Finding HTML elements by HTML object collections
+
 // //console.dir(document);
 // console.log(document.domain);
 // console.log(document.URL);
@@ -37,7 +45,7 @@ getElementById
 
 /* 
 ================================================================================================================================
-getElelmentByClassName
+getElementByClassName
 ================================================================================================================================
 */
 
@@ -101,6 +109,7 @@ querySelector  // Grabs the first item
 querySelectorAll
 ================================================================================================================================
 */
+// If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
 
 var titles = document.querySelectorAll('.title');
  
@@ -181,8 +190,6 @@ console.log(itemList);
 // itemList.previousElementSibling.style.color = 'green';
 
 
-
-
 /* 
 ================================================================================================================================
 createElement
@@ -215,4 +222,15 @@ createElement
 
 //  container.insertBefore(newDiv, h1);
 // //  newDiv.style.fontSize = '30px';
+
+/* 
+================================================================================================================================
+Events
+================================================================================================================================
+*/
+
+var button = document.querySelectorAll('.item-list .btn');
+console.log(button);
+
+// button.style.backgroundColor = 'grey';
 
