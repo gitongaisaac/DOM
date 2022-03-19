@@ -518,7 +518,8 @@ pre {
   padding: 10px;
 }
 
-input[type="text"] {
+input[type="text"],
+.select {
   outline: none;
 }
 

@@ -4,6 +4,21 @@
   background-color: var(--stroke-400);
 }
 
+#header .container-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  align-self: center;
+  height: 30px;
+  border: 2px solid var(--grey-400);
+}
+
+.search::placeholder {
+  padding-left: 3px;
+}
+
 /* List */
 .list .card {
   box-shadow: var(--shadow-2);
@@ -20,8 +35,23 @@
 }
 
 .list .list-item {
+  height: 50px;
   padding: 5px 15px;
   border: 0.5px solid var(--grey-400);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list .list-item p {
+  cursor: pointer;
+  padding: 1px 10px;
+  border: 1px solid var(--grey-400);
+  border-radius: 50%;
+}
+
+.list .list-item p:hover {
+  background-color: var(--grey-400);
 }
 
 .list .form {
@@ -32,4 +62,17 @@
 
 .list .list-item {
   margin: 20px;
+}
+
+#box {
+  margin: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: #f4f4f4;
+}
+
+.select {
+  width: 40px;
+  margin: 0 5px;
+  /* outline: none; */
 }
