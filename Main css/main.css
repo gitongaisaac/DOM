@@ -689,6 +689,7 @@ Buttons
 */
 
 .btn {
+  /* cursor: ; */
   display: inline-block;
   border: none;
   background-color: transparent;

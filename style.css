@@ -43,14 +43,14 @@
   align-items: center;
 }
 
-.list .list-item p {
+.delete {
   cursor: pointer;
   padding: 1px 10px;
   border: 1px solid var(--grey-400);
   border-radius: 50%;
 }
 
-.list .list-item p:hover {
+.delete:hover {
   background-color: var(--grey-400);
 }
 
